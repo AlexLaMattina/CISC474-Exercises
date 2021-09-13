@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
     console.log( "ready!" );
     $('#go').click(function(e){
-      $('#nameform').submit();
+      $('#nameform').hide();
     
       $('.form-group').clone().appendTo('#jumbotron');
       down.innerHTML = "Inner DIV is copied to another element.";
