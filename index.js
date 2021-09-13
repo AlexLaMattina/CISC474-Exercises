@@ -1,8 +1,8 @@
 $( document ).ready(function() {
-     console.log( "ready!" );
+    console.log( "ready!" );
     $('#go').click(function(e){
+      $(".form=group").appendTo("#jumbotron");
       $('#nameform').submit();  
-      $("#nameform").appendTo("#jumbotron");
       e.preventDefault();
     });
 });
