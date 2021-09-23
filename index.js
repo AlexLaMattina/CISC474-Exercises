@@ -3,7 +3,7 @@ $( document ).ready(function() {
     event.preventDefault()
     let first = $("#fname").val();
     let last = $("#lname").val();
-    $("#jumbotron").append(first + " " + last)
+    $("#jumbotron").append(first + " " + last + " ")
    });  
  }); 
 
