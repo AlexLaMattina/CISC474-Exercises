@@ -1,1 +1,1 @@
-# CMSC474-Exercise1
+# CISC474-Exercises
